@@ -1,0 +1,17 @@
+# Ignore the Python virtual environment
+venv/
+.venv/
+
+# Ignore Python cache files
+**/__pycache__/
+*.pyc
+
+# Ignore deep learning model weights (YOLO downloads this automatically)
+*.pt
+models/*.pt
+
+# Ignore local simulation data logs
+data/violations.csv
+
+# Ignore Streamlit local configurations
+.streamlit/config.toml
